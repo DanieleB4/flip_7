@@ -13,8 +13,8 @@
   ],
   "name":"Room1",
   "parent":{
-    "name":"flip_7",
-    "path":"flip_7.yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
