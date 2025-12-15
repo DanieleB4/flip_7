@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_card",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_card",
   "overriddenProperties":[],
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_card_number",
-    "path":"sprites/spr_card_number/spr_card_number.yy",
+    "name":"spr_card_back",
+    "path":"sprites/spr_card_back/spr_card_back.yy",
   },
   "spriteMaskId":null,
   "visible":true,
