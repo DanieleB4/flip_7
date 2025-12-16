@@ -1,2 +1,2 @@
 // Variables
-cards = init_deck();
+cards = init_deck(true);
