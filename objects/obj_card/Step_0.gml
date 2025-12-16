@@ -10,6 +10,7 @@ if(update) {
 		sprite_index = spr_card_modifier;
 	}
 	else if(card_type == CARD_TYPE.BACK) {
+		sprite_index = spr_card_back;
 	}
 	
 	image_index = card_value;
