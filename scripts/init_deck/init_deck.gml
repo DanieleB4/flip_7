@@ -38,7 +38,7 @@ function init_deck(shuffle) {
 	
 	if(shuffle) {
 		randomise();
-		array_shuffle(cards);
+		cards = array_shuffle(cards);
 	}
 	
 	return cards;
