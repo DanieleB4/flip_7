@@ -11,6 +11,8 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Managers","folderPath":"folders/Objects/Managers.yy","name":"Managers","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Cards","folderPath":"folders/Objects/Cards.yy","name":"Cards","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -26,8 +28,14 @@
   "name":"flip_7",
   "resources":[
     {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_deck","path":"objects/obj_deck/obj_deck.yy",},},
+    {"id":{"name":"obj_mng_game","path":"objects/obj_mng_game/obj_mng_game.yy",},},
+    {"id":{"name":"obj_mng_init","path":"objects/obj_mng_init/obj_mng_init.yy",},},
+    {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
+    {"id":{"name":"rm_testing","path":"rooms/rm_testing/rm_testing.yy",},},
+    {"id":{"name":"init_deck","path":"scripts/init_deck/init_deck.yy",},},
     {"id":{"name":"init_variables","path":"scripts/init_variables/init_variables.yy",},},
+    {"id":{"name":"utils","path":"scripts/utils/utils.yy",},},
     {"id":{"name":"spr_card_action","path":"sprites/spr_card_action/spr_card_action.yy",},},
     {"id":{"name":"spr_card_back","path":"sprites/spr_card_back/spr_card_back.yy",},},
     {"id":{"name":"spr_card_modifier","path":"sprites/spr_card_modifier/spr_card_modifier.yy",},},
@@ -37,7 +45,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
+    {"roomId":{"name":"rm_testing","path":"rooms/rm_testing/rm_testing.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

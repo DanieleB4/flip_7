@@ -10,4 +10,12 @@ function init_variables() {
 		FLIP_THREE,
 		SECOND_CHANCE
 	}
+	enum CARD_MODIFIER {
+		PLUS2,
+		PLUS4,
+		PLUS6,
+		PLUS8,
+		PLUS10,
+		TIMES2
+	}
 }

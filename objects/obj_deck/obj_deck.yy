@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_card",
+  "%Name":"obj_deck",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_card",
+  "name":"obj_deck",
   "overriddenProperties":[],
   "parent":{
     "name":"Cards",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_card_back",
-    "path":"sprites/spr_card_back/spr_card_back.yy",
+    "name":"spr_deck",
+    "path":"sprites/spr_deck/spr_deck.yy",
   },
   "spriteMaskId":null,
   "visible":true,
