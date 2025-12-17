@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"init_deck",
+  "%Name":"card_utils",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"init_deck",
+  "name":"card_utils",
   "parent":{
     "name":"Cards",
     "path":"folders/Scripts/Cards.yy",

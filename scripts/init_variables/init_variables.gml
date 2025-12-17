@@ -5,11 +5,13 @@ function init_variables() {
 		MODIFIER,
 		BACK
 	}
+	
 	enum CARD_ACTION {
 		FREEZE,
 		FLIP_THREE,
 		SECOND_CHANCE
 	}
+	
 	enum CARD_MODIFIER {
 		PLUS2,
 		PLUS4,
@@ -18,4 +20,13 @@ function init_variables() {
 		PLUS10,
 		TIMES2
 	}
+	
+	global.deck = [];
+	global.discards = [];
+	#macro DECK_LENGTH array_length(global.deck)
+	
+	global.player_number = -1;
+	global.player_number_ai = -1;
+	global.player_list = [];
+	global.player_turn = 0;
 }

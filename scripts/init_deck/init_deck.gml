@@ -1,6 +1,6 @@
-/// @param {bool} shuffle Wether to return the deck shuffled or not
-/// @return {Array<Struct>} cards
-function init_deck(shuffle) {
+/// @param {bool} shuffle Wether to return the deck shuffled or not (false by default)
+/// @return {Array<Struct>}
+function init_deck(shuffle = false) {
 	/// 94 total cards
 	/// 79 number cards (n per number 'n' and a '0')
 	/// 6 modifier cards (1 per type)
@@ -11,7 +11,7 @@ function init_deck(shuffle) {
 	// Add number cards
 	array_push_card(cards, CARD_TYPE.NUMBER, 0);
 	
-	for(i = 1; i <= 12; i++) {
+	for(var i = 1; i <= 12; i++) {
 		repeat(i) {
 			array_push_card(cards, CARD_TYPE.NUMBER, i);
 		}
