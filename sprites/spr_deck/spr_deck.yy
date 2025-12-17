@@ -24,7 +24,7 @@
   "height":181,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"8c15f551-b30d-45bf-9d6e-4dc920da8425","blendMode":0,"displayName":"default","isLocked":false,"name":"8c15f551-b30d-45bf-9d6e-4dc920da8425","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ef0483f3-73e0-4014-9bba-b1eb051056ee","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"ef0483f3-73e0-4014-9bba-b1eb051056ee","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_deck",
   "nineSlice":null,

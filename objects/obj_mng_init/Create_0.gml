@@ -1,4 +1,4 @@
 //Initialize variables
 init_variables();
 
-room_goto(rm_testing);
+room_goto(rm_menu);
