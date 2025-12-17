@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_btn_play",
+  "%Name":"obj_btn_stay",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_btn_play",
+  "name":"obj_btn_stay",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Objects/Buttons/Menu.yy",
+    "name":"Game",
+    "path":"folders/Objects/Buttons/Game.yy",
   },
   "parentObjectId":{
     "name":"obj_btn_template",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_btn_play",
-    "path":"sprites/spr_btn_play/spr_btn_play.yy",
+    "name":"spr_btn_stay",
+    "path":"sprites/spr_btn_stay/spr_btn_stay.yy",
   },
   "spriteMaskId":null,
   "visible":true,

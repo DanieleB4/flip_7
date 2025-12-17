@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_btn_play",
+  "%Name":"obj_btn_hit",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_btn_play",
+  "name":"obj_btn_hit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Objects/Buttons/Menu.yy",
+    "name":"Game",
+    "path":"folders/Objects/Buttons/Game.yy",
   },
   "parentObjectId":{
     "name":"obj_btn_template",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_btn_play",
-    "path":"sprites/spr_btn_play/spr_btn_play.yy",
+    "name":"spr_btn_hit",
+    "path":"sprites/spr_btn_hit/spr_btn_hit.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -8,8 +8,8 @@
   "name":"obj_btn_quit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Buttons.yy",
+    "name":"Menu",
+    "path":"folders/Objects/Buttons/Menu.yy",
   },
   "parentObjectId":{
     "name":"obj_btn_template",

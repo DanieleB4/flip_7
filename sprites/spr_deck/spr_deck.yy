@@ -28,7 +28,7 @@
   ],
   "name":"spr_deck",
   "nineSlice":null,
-  "origin":9,
+  "origin":0,
   "parent":{
     "name":"Cards",
     "path":"folders/Sprites/Cards.yy",
@@ -55,7 +55,7 @@
     "eventStubScript":null,
     "eventToFunction":{},
     "length":6.0,
-    "lockOrigin":true,
+    "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
       "Keyframes":[],
@@ -95,8 +95,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":7,
-    "yorigin":1,
+    "xorigin":0,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

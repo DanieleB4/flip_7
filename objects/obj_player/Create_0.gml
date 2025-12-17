@@ -6,3 +6,5 @@ points = 0;
 hand = [];
 
 active = true;
+
+#macro HAND_LENGTH array_length(hand)
