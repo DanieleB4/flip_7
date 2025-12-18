@@ -5,6 +5,6 @@ playerr_id = -1;
 points = 0;
 hand = [];
 
-active = true;
+isActive = true;
 
 #macro HAND_LENGTH array_length(hand)
