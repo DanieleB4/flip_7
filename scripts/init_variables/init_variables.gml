@@ -25,8 +25,10 @@ function init_variables() {
 	global.discards = [];
 	#macro DECK_LENGTH array_length(global.deck)
 	
-	global.player_number = -1;
-	global.player_number_ai = -1;
+	global.player_number = 3;
+	global.player_number_ai = 1;
 	global.player_list = [];
 	global.player_turn = 0;
+	
+	#macro PLAYER_NUMBER_MAX 6
 }
