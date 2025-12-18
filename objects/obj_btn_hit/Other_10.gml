@@ -1,4 +1,4 @@
-/// @dscription Draw card
+/// @description Draw card
 with(obj_deck) {
 	event_perform(ev_other, ev_user0);
 }
