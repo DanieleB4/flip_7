@@ -68,6 +68,7 @@
     {"id":{"name":"spr_btn_arrow_right","path":"sprites/spr_btn_arrow_right/spr_btn_arrow_right.yy",},},
     {"id":{"name":"spr_btn_back","path":"sprites/spr_btn_back/spr_btn_back.yy",},},
     {"id":{"name":"spr_btn_hit","path":"sprites/spr_btn_hit/spr_btn_hit.yy",},},
+    {"id":{"name":"spr_btn_next_player","path":"sprites/spr_btn_next_player/spr_btn_next_player.yy",},},
     {"id":{"name":"spr_btn_play","path":"sprites/spr_btn_play/spr_btn_play.yy",},},
     {"id":{"name":"spr_btn_quit","path":"sprites/spr_btn_quit/spr_btn_quit.yy",},},
     {"id":{"name":"spr_btn_shuffle","path":"sprites/spr_btn_shuffle/spr_btn_shuffle.yy",},},

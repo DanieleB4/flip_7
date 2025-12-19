@@ -6,5 +6,4 @@ points = 0;
 hand = [];
 
 isActive = true;
-
-#macro HAND_LENGTH array_length(hand)
+hasDrew = false;

@@ -20,3 +20,10 @@ for(var i = 0; i < global.player_number; i++) {
 	array_push(global.player_list, player);
 }
 global.player_list = array_shuffle(global.player_list);
+
+///give each player a card
+for(var i = 0; i < global.player_number; i++) {
+	with(global.player_list[i]) {
+		draw_card(global.deck, global.player_list[i].hand);
+	}
+}
