@@ -3,7 +3,7 @@ global.player_list = [];
 global.player_turn = 0;
 
 global.discards = [];
-instance_create_layer((room_width - sprite_get_width(spr_deck)) / 2, 32, layer, obj_deck);
+instance_create_layer((room_width - sprite_get_width(spr_deck)) / 2, 128, layer, obj_deck);
 
 //load players
 if(global.player_number < global.player_number_ai) {

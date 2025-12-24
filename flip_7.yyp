@@ -60,6 +60,7 @@
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_testing","path":"rooms/rm_testing/rm_testing.yy",},},
     {"id":{"name":"card_utils","path":"scripts/card_utils/card_utils.yy",},},
+    {"id":{"name":"draw_text_box","path":"scripts/draw_text_box/draw_text_box.yy",},},
     {"id":{"name":"init_deck","path":"scripts/init_deck/init_deck.yy",},},
     {"id":{"name":"init_variables","path":"scripts/init_variables/init_variables.yy",},},
     {"id":{"name":"player_utils","path":"scripts/player_utils/player_utils.yy",},},
